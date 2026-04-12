@@ -1,0 +1,265 @@
+GTNH 汉化 Key 修复报告
+生成时间: 2026-04-12 20:50:25
+运行模式: 试运行（不修改文件）
+============================================================
+
+
+── 模组: gregtech ──
+   文件: resources/GregTech(+16)[gregtech]/lang/zh_CN.lang
+  [DELETE] gregtech: GT5U.machines.advdebugstructurewriter.gui.origin
+  [DELETE] gregtech: GT5U.machines.advdebugstructurewriter.gui.size
+  [DELETE] gregtech: GT5U.machines.advdebugstructurewriter.gui.print.tooltip
+  [DELETE] gregtech: GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip
+  [DELETE] gregtech: GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip
+  [RENAME] gregtech: GT5U.gui.text.insufficient → GT5U.gui.text.generator_structure_incomplete
+   统计: 重命名=1, 注释废弃=5, 已存在新key=0, 新增TODO=0
+
+── 模组: gtneioreplugin ──
+   文件: resources/GregTech(+16)[gtneioreplugin]/lang/zh_CN.lang
+  [RENAME] gtneioreplugin: gtnop.world.Twilight → gtnop.world.TwilightForest
+  [RENAME] gtneioreplugin: gtnop.world.Moon → gtnop.world.moon
+  [RENAME] gtneioreplugin: gtnop.world.Mars → gtnop.world.mars
+  [RENAME] gtneioreplugin: gtnop.world.Phobos → gtnop.world.phobos
+  [RENAME] gtneioreplugin: gtnop.world.Deimos → gtnop.world.deimos
+  [RENAME] gtneioreplugin: gtnop.world.Asteroids → gtnop.world.asteroids
+  [RENAME] gtneioreplugin: gtnop.world.Ceres → gtnop.world.ceres
+  [RENAME] gtneioreplugin: gtnop.world.Europa → gtnop.world.europa
+  [RENAME] gtneioreplugin: gtnop.world.Ganymede → gtnop.world.ganymed
+  [RENAME] gtneioreplugin: gtnop.world.Callisto → gtnop.world.callisto
+  [RENAME] gtneioreplugin: gtnop.world.Ross128b → gtnop.world.ross128b
+  [RENAME] gtneioreplugin: gtnop.world.Io → gtnop.world.iojupiter
+  [RENAME] gtneioreplugin: gtnop.world.Venus → gtnop.world.venus
+  [RENAME] gtneioreplugin: gtnop.world.Mercury → gtnop.world.mercury
+  [RENAME] gtneioreplugin: gtnop.world.Enceladus → gtnop.world.enceladus
+  [RENAME] gtneioreplugin: gtnop.world.Titan → gtnop.world.titan
+  [RENAME] gtneioreplugin: gtnop.world.Ross128ba → gtnop.world.ross128ba
+  [RENAME] gtneioreplugin: gtnop.world.Miranda → gtnop.world.miranda
+  [RENAME] gtneioreplugin: gtnop.world.Oberon → gtnop.world.oberon
+  [RENAME] gtneioreplugin: gtnop.world.Proteus → gtnop.world.proteus
+  [RENAME] gtneioreplugin: gtnop.world.Triton → gtnop.world.triton
+  [RENAME] gtneioreplugin: gtnop.world.Pluto → gtnop.world.pluto
+  [RENAME] gtneioreplugin: gtnop.world.Kuiperbelt → gtnop.world.kuiperbelt
+  [RENAME] gtneioreplugin: gtnop.world.Haumea → gtnop.world.haumea
+  [RENAME] gtneioreplugin: gtnop.world.MakeMake → gtnop.world.makemake
+  [RENAME] gtneioreplugin: gtnop.world.CentauriA → gtnop.world.centauribb
+  [RENAME] gtneioreplugin: gtnop.world.VegaB → gtnop.world.vega1
+  [RENAME] gtneioreplugin: gtnop.world.BarnardC → gtnop.world.barnarda2
+  [RENAME] gtneioreplugin: gtnop.world.BarnardE → gtnop.world.barnarda4
+  [RENAME] gtneioreplugin: gtnop.world.BarnardF → gtnop.world.barnarda5
+  [RENAME] gtneioreplugin: gtnop.world.TcetiE → gtnop.world.tcetie
+  [RENAME] gtneioreplugin: gtnop.world.Anubis → gtnop.world.anubis
+  [RENAME] gtneioreplugin: gtnop.world.MehenBelt → gtnop.world.asteroidbeltmehen
+  [RENAME] gtneioreplugin: gtnop.world.Horus → gtnop.world.horus
+  [RENAME] gtneioreplugin: gtnop.world.Maahes → gtnop.world.maahes
+  [RENAME] gtneioreplugin: gtnop.world.Neper → gtnop.world.neper
+  [RENAME] gtneioreplugin: gtnop.world.Seth → gtnop.world.seth
+   统计: 重命名=37, 注释废弃=0, 已存在新key=0, 新增TODO=0
+
+── 模组: gtnhintergalactic ──
+   文件: resources/GregTech(+16)[gtnhintergalactic]/lang/zh_CN.lang
+  [RENAME] gtnhintergalactic: ig.elevator.structure.AnyBaseCasingWith1Dot → ig.elevator.structure.AnyBaseCasingWithHintNumber1
+  [RENAME] gtnhintergalactic: ig.elevator.structure.AnyBaseCasingWith2Dot → ig.elevator.structure.AnyBaseCasingWithHintNumber2
+  [RENAME] gtnhintergalactic: ig.elevator.structure.AnyBaseCasingWith3Dot → ig.elevator.structure.AnyBaseCasingWithHintNumber3
+   统计: 重命名=3, 注释废弃=0, 已存在新key=0, 新增TODO=0
+
+── 模组: gtnhlanth ──
+   文件: resources/GregTech(+16)[gtnhlanth]/lang/zh_CN.lang
+  [RENAME] gtnhlanth: gtnhlanth.tt.hintdot → gtnhlanth.tt.hintNumber
+  [DELETE] gtnhlanth: beamline.particleinput
+   统计: 重命名=1, 注释废弃=1, 已存在新key=0, 新增TODO=0
+
+── 模组: ggfab ──
+   文件: resources/GregTech(+16)[ggfab]/lang/zh_CN.lang
+  [DELETE] ggfab: ggfab.recipe.toolcast
+  [RENAME] ggfab: ggfab.gui.advassline.shutdown.input_busses → ggfab.gui.advassline.shutdown.input_buses
+   统计: 重命名=1, 注释废弃=1, 已存在新key=0, 新增TODO=0
+
+── 模组: miscutils ──
+   文件: resources/GregTech(+16)[miscutils]/lang/zh_CN.lang
+  [DELETE] miscutils: misc.BatchModeTextOn
+  [DELETE] miscutils: misc.BatchModeTextOff
+  [DELETE] miscutils: tile.blockPestKiller.name
+  [DELETE] miscutils: item.Fertiliser.name
+  [DELETE] miscutils: item.UN32Fertiliser.name
+  [DELETE] miscutils: item.UN18Fertiliser.name
+  [DELETE] miscutils: item.itemDustUN18Fertiliser.name
+  [DELETE] miscutils: item.itemDustSmallUN18Fertiliser.name
+  [DELETE] miscutils: item.itemDustTinyUN18Fertiliser.name
+  [DELETE] miscutils: item.itemDustUN32Fertiliser.name
+  [DELETE] miscutils: item.itemDustSmallUN32Fertiliser.name
+  [DELETE] miscutils: item.itemDustTinyUN32Fertiliser.name
+  [DELETE] miscutils: tile.blockProjectBench.name
+  [DELETE] miscutils: item.RawWaste.name
+  [DELETE] miscutils: item.ManureSlurry.name
+  [DELETE] miscutils: item.FertileManureSlurry.name
+  [DELETE] miscutils: tile.blockPooCollector.name
+  [DELETE] miscutils: tile.blockPooCollector.0.name
+  [DELETE] miscutils: tile.blockPooCollector.8.name
+  [DELETE] miscutils: item.itemDustManureByproducts.name
+  [DELETE] miscutils: item.itemDustSmallDirt.name
+  [DELETE] miscutils: item.itemDustSmallManureByproducts.name
+  [DELETE] miscutils: item.itemDustTinyManureByproducts.name
+  [DELETE] miscutils: container.pestkiller
+  [RENAME] miscutils: interaction.separateBusses.enabled → interaction.separateBuses.enabled
+  [RENAME] miscutils: interaction.separateBusses.disabled → interaction.separateBuses.disabled
+  [DELETE] miscutils: item.BasicGenericChemItem.29.name
+  [DELETE] miscutils: item.BasicGenericChemItem.30.name
+  [DELETE] miscutils: item.BasicGenericChemItem.31.name
+  [DELETE] miscutils: item.BasicGenericChemItem.32.name
+  [DELETE] miscutils: gtpp.infodata.multi_block.total_time
+  [DELETE] miscutils: gtpp.infodata.multi_block.total_time.0
+  [DELETE] miscutils: gtpp.infodata.multi_block.total_time.in_ticks
+  [DELETE] miscutils: gtpp.gui.crop_harvestor.tooltip.water
+   统计: 重命名=2, 注释废弃=32, 已存在新key=0, 新增TODO=0
+
+── 模组: tectech ──
+   文件: resources/GregTech(+16)[tectech]/lang/zh_CN.lang
+  [RENAME] tectech: gt.blockmachines.hatch.energymulti.desc.0 → gt.blockmachines.hatch.energymulti.desc
+  [DELETE] tectech: gt.blockmachines.hatch.energymulti.desc.1
+  [DELETE] tectech: gt.blockmachines.hatch.energymulti.desc.2
+  [DELETE] tectech: gt.blockmachines.hatch.energymulti.desc.3
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel2.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel3.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel4.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel5.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel6.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.energytunnel7.tier.13.name
+  [RENAME] tectech: gt.blockmachines.hatch.energytunnel.desc.0 → gt.blockmachines.hatch.energytunnel.desc
+  [DELETE] tectech: gt.blockmachines.hatch.energytunnel.desc.1
+  [RENAME] tectech: gt.blockmachines.hatch.dynamomulti.desc.0 → gt.blockmachines.hatch.dynamomulti.desc
+  [DELETE] tectech: gt.blockmachines.hatch.dynamomulti.desc.1
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.05.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.06.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.07.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.08.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.09.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.10.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.11.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.12.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel2.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel3.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel4.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel5.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel6.tier.13.name
+  [DELETE-PREFIX] tectech: gt.blockmachines.hatch.dynamotunnel7.tier.13.name
+  [RENAME] tectech: gt.blockmachines.hatch.dynamotunnel.desc.0 → gt.blockmachines.hatch.dynamotunnel.desc
+  [DELETE] tectech: gt.blockmachines.hatch.dynamotunnel.desc.1
+  [RENAME] tectech: gt.3blockcasingsTT.2.name → gt.blockcasingsTT.2.name
+  [DELETE] tectech: gt.blockmachines.debug.tt.writer.name
+  [DELETE] tectech: gt.blockmachines.debug.tt.writer.desc.0
+  [DELETE] tectech: gt.blockmachines.debug.tt.writer.desc.1
+  [DELETE] tectech: gt.blockmachines.debug.tt.writer.desc.2
+   统计: 重命名=5, 注释废弃=118, 已存在新key=0, 新增TODO=0
+
+── 模组: bartworks ──
+   文件: resources/GregTech(+16)[bartworks]/lang/zh_CN.lang
+  [DELETE] bartworks: tooltip.bw.high_temp_gas_cooled_reactor.material
+  [DELETE] bartworks: tooltip.bw.item.circuit.tagged
+  [DELETE] bartworks: tooltip.bw.item.circuit.imprint
+  [DELETE] bartworks: tooltip.bw.item.circuit.sliced
+  [DELETE] bartworks: BW.infoData.htgr.mode
+  [DELETE] bartworks: BW.infoData.htgr.mode.emptying
+  [DELETE] bartworks: BW.infoData.htgr.mode.normal
+  [DELETE] bartworks: BW.infoData.htgr.progress
+  [DELETE] bartworks: BW.infoData.htgr.fuel_type
+  [DELETE] bartworks: BW.infoData.htgr.fuel_type.none
+  [DELETE] bartworks: BW.infoData.htgr.fuel_type.triso
+  [DELETE] bartworks: BW.infoData.htgr.fuel_amount
+  [DELETE] bartworks: BW.infoData.htgr.coolant
+  [DELETE] bartworks: misc.BatchModeTextOn
+  [DELETE] bartworks: misc.BatchModeTextOff
+   统计: 重命名=0, 注释废弃=15, 已存在新key=0, 新增TODO=0
+
+============================================================
+汇总
+  Key 重命名（翻译已保留）: 50
+  废弃 Key 注释掉         : 172
+  新增 TODO 待翻译 Key    : 0
