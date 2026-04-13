@@ -4408,3 +4408,57 @@ Material.zirconolite=钛锆酸钙
 Material.zircophyllite=锆星叶石
 Material.zirkelite=钛锆钍矿
 Material.zrcl4=氯化锆
+
+# MOX燃料棒别名键
+gt.depletedRodMOX.name=燃料棒（枯竭MOX）
+gt.depletedRodMOX2.name=二联燃料棒（枯竭MOX）
+gt.depletedRodMOX4.name=四联燃料棒（枯竭MOX）
+gt.rodMOX.name=燃料棒（MOX）
+gt.rodMOX2.name=二联燃料棒（MOX）
+gt.rodMOX4.name=四联燃料棒（MOX）
+
+# 冷却单元
+gt.1080k_Space_Coolantcell.name=1080k空间冷却单元
+gt.180k_Helium_Coolantcell.name=180k氦冷却单元
+gt.180k_NaK_Coolantcell.name=180k钠钾冷却单元
+gt.180k_Space_Coolantcell.name=180k空间冷却单元
+gt.360k_Helium_Coolantcell.name=360k氦冷却单元
+gt.360k_NaK_Coolantcell.name=360k钠钾冷却单元
+gt.360k_Space_Coolantcell.name=360k空间冷却单元
+gt.540k_Space_Coolantcell.name=540k空间冷却单元
+gt.60k_Helium_Coolantcell.name=60k氦冷却单元
+gt.60k_NaK_Coolantcell.name=60k钠钾冷却单元
+
+# 上游zh_CN补充键
+GT5U.machines.debugstructurewriter.gui.highlight.tooltip=显示边框
+GT5U.machines.debugstructurewriter.gui.origin=原点
+GT5U.machines.debugstructurewriter.gui.print.tooltip=打印结构
+GT5U.machines.debugstructurewriter.gui.size=结构尺寸
+GT5U.machines.debugstructurewriter.gui.transpose.tooltip=转置
+GT5U.machines.debugstructurewriter.printed=已打印到控制台的结构
+GT5U.machines.debugstructurewriter.tooltip=扫描周围的方块
+GT5U.machines.debugstructurewriter.tooltip.1=打印多方块非-方块实体结构验证码
+GT5U.machines.debugstructurewriter.tooltip.2=ABC轴与机器正面对齐
+GT5U.machines.digitaltank.autooutput.disabled=流体自动输出已禁用
+GT5U.machines.digitaltank.autooutput.enabled=流体自动输出已启用
+GT5U.machines.digitaltank.lockfluid.disabled=流体锁定模式已禁用
+GT5U.machines.digitaltank.lockfluid.enabled=锁定单一流体（%s）
+GT5U.machines.digitaltank.lockfluid.none=当前未指定，将锁定为下一种输入流体
+GT5U.machines.digitaltank.tooltip2=潜行拆卸可销毁内部流体
+GT5U.machines.digitaltank.voidfull.disabled=完全销毁模式已禁用
+GT5U.machines.digitaltank.voidfull.enabled=完全销毁模式已启用
+GT5U.machines.digitaltank.voidoverflow.disabled=溢出销毁模式已禁用
+GT5U.machines.digitaltank.voidoverflow.enabled=溢出销毁模式已启用
+GT5U.machines.industrialapiary.upgradeslot.tooltip.1=§7同时兼容基因工业(gendustry)升级
+GT5U.machines.stalled_vent.tooltip.extended=§7处理进度丢失了，
+GT5U.machines.stalled_vent.tooltip.extended.1=§7但处理产物还在.
+GT5U.machines.workareaset=工作区域设置为
+GT5U.multiblock.scanner.Progress=工作时间: §a%s §rs / §e%s §rs
+GT5U.multiblock.scanner.efficiency=效率: §e%s§r%%
+GT5U.multiblock.scanner.energy=存储能量: §a%s §rEU / §e%s §rEU
+GT5U.multiblock.scanner.mei=最大输入: §e%s §rEU/t (*2A) Tier: §e%s
+GT5U.multiblock.scanner.pollution=污染减少到: §a%s§r%%
+GT5U.multiblock.scanner.problems=问题: §c%s
+GT5U.multiblock.scanner.usage=大概功率: §c%s §rEU/t
+achievement.factory=工厂
+achievement.factory.desc=制造一台处理阵列

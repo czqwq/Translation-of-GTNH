@@ -4086,3 +4086,231 @@ gtpp.chat.wireless_charger.lock=已锁定给所有者
 gtpp.chat.wireless_charger.unlock=已解锁
 gtpp.chat.wireless_charger.enter=你已进入充电范围。[%,d 米 - %s]
 gtpp.chat.wireless_charger.leave=你已经离开充能范围。[%,d 米 - %s]
+
+# GT++新增方块和功能
+GT5U.infodata.digital_tank.stored_fluid=存储流体
+GT5U.infodata.digital_tank.stored_fluid.empty=空
+gtplusplus.blockcasings.2.0.name=热处理机械方块
+gtplusplus.blockcasings.2.1.name=哈斯合金N密封方块
+gtplusplus.blockcasings.2.10.name=回旋加速器外部机械方块
+gtplusplus.blockcasings.2.11.name=热隔离机械方块
+gtplusplus.blockcasings.2.12.name=大量生产框架
+gtplusplus.blockcasings.2.13.name=切割工厂框架
+gtplusplus.blockcasings.2.15.name=无菌农场机械方块
+gtplusplus.blockcasings.2.2.name=哈斯合金X结构方块
+gtplusplus.blockcasings.2.3.name=Incoloy-DS流体密封方块
+gtplusplus.blockcasings.2.4.name=洗矿厂机械方块
+gtplusplus.blockcasings.2.5.name=工业筛分机械方块
+gtplusplus.blockcasings.2.6.name=大型筛网格栅
+gtplusplus.blockcasings.2.7.name=钒氧化还原储能单元(EV)
+gtplusplus.blockcasings.2.8.name=子站外部机械方块
+gtplusplus.blockcasings.2.9.name=回旋加速器线圈
+gtplusplus.blockcasings.3.0.name=水下机械方块
+gtplusplus.blockcasings.3.1.name=Inconel强化机械方块
+gtplusplus.blockcasings.3.10.name=进阶低温机械方块
+gtplusplus.blockcasings.3.11.name=火神机械方块
+gtplusplus.blockcasings.3.12.name=聚变机械方块 MK III
+gtplusplus.blockcasings.3.13.name=进阶聚变线圈
+gtplusplus.blockcasings.3.14.name=未命名方块
+gtplusplus.blockcasings.3.15.name=密封机械方块
+gtplusplus.blockcasings.3.2.name=多用途机械方块
+gtplusplus.blockcasings.3.3.name=三钛铸造机械方块
+gtplusplus.blockcasings.3.4.name=钒氧化还原储能单元(IV)
+gtplusplus.blockcasings.3.5.name=钒氧化还原储能单元(LuV)
+gtplusplus.blockcasings.3.6.name=钒氧化还原储能单元(ZPM)
+gtplusplus.blockcasings.3.7.name=钒氧化还原储能单元(UV)
+gtplusplus.blockcasings.3.8.name=钒氧化还原储能单元(UHV)
+gtplusplus.blockcasings.3.9.name=供给站机械方块
+gtplusplus.blockcasings.4.10.name=真空机械方块
+gtplusplus.blockcasings.4.11.name=涡轮驱动机械方块
+gtplusplus.blockcasings.4.3.name=淬火电弧炉机械方块
+gtplusplus.blockcasings.4.4.name=量子力场变压器线圈方块
+gtplusplus.blockcasings.5.0.name=IsaMill外部机械方块
+gtplusplus.blockcasings.5.1.name=IsaMill管道
+gtplusplus.blockcasings.5.10.name=时空连续体撕裂器
+gtplusplus.blockcasings.5.11.name=中子屏蔽核心
+gtplusplus.blockcasings.5.12.name=宇宙结构屏蔽核心
+gtplusplus.blockcasings.5.13.name=无限注能屏蔽核心
+gtplusplus.blockcasings.5.14.name=时空弯曲核心
+gtplusplus.blockcasings.5.15.name=力场玻璃
+gtplusplus.blockcasings.5.2.name=IsaMill齿轮箱
+gtplusplus.blockcasings.5.3.name=元素约束壳体
+gtplusplus.blockcasings.5.4.name=喷射塔外部机械方块
+gtplusplus.blockcasings.5.5.name=坚固打印机机械方块
+gtplusplus.blockcasings.5.6.name=锻造机械方块
+gtplusplus.blockcasings.5.7.name=中子脉冲操纵器
+gtplusplus.blockcasings.5.8.name=宇宙结构操纵器
+gtplusplus.blockcasings.5.9.name=无限注能操纵器
+gtplusplus.blockcasings.6.0.name=聚变机械方块 MK IV
+gtplusplus.blockcasings.6.1.name=进阶聚变线圈 II
+gtplusplus.blockcasings.pipesgears.0.name=Eglin钢齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.1.name=Inconel-792齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.10.name=Stellite管道机械方块
+gtplusplus.blockcasings.pipesgears.11.name=Nitinol-60管道机械方块
+gtplusplus.blockcasings.pipesgears.12.name=Lafium管道机械方块
+gtplusplus.blockcasings.pipesgears.13.name=Cinobite管道机械方块
+gtplusplus.blockcasings.pipesgears.14.name=Titansteel管道机械方块
+gtplusplus.blockcasings.pipesgears.15.name=深渊管道机械方块
+gtplusplus.blockcasings.pipesgears.2.name=Incoloy MA956齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.3.name=Nitinol-60齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.4.name=Zeron-100齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.5.name=Pikyonium齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.6.name=Titansteel齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.7.name=深渊齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.8.name=Babbit合金管道机械方块
+gtplusplus.blockcasings.pipesgears.9.name=Inconel-690管道机械方块
+gtplusplus.blockspecialcasings.1.0.name=涡轮轴
+gtplusplus.blockspecialcasings.1.1.name=强化蒸汽涡轮机械方块
+gtplusplus.blockspecialcasings.1.10.name=强化引擎机械方块
+gtplusplus.blockspecialcasings.1.11.name=分子约束机械方块
+gtplusplus.blockspecialcasings.1.12.name=高压电容机械方块
+gtplusplus.blockspecialcasings.1.13.name=粒子约束机械方块
+gtplusplus.blockspecialcasings.1.14.name=强化换热机械方块
+gtplusplus.blockspecialcasings.1.15.name=强化超导涡轮机械方块
+gtplusplus.blockspecialcasings.1.2.name=强化高压蒸汽涡轮机械方块
+gtplusplus.blockspecialcasings.1.3.name=强化燃气涡轮机械方块
+gtplusplus.blockspecialcasings.1.4.name=强化等离子涡轮机械方块
+gtplusplus.blockspecialcasings.1.5.name=特斯拉约束机械方块
+gtplusplus.blockspecialcasings.1.6.name=结构太阳能机械方块
+gtplusplus.blockspecialcasings.1.7.name=盐分约束机械方块
+gtplusplus.blockspecialcasings.1.8.name=隔热机械方块
+gtplusplus.blockspecialcasings.1.9.name=浮选槽机械方块
+gtplusplus.blockspecialcasings.2.0.name=强化铜机器机械方块
+gtplusplus.blockspecialcasings.2.1.name=坚固铝机器机械方块
+gtplusplus.blockspecialcasings.2.2.name=强劲Laurenium机器机械方块
+gtplusplus.blockspecialcasings.2.3.name=坚韧Botmium机器机械方块
+gtplusplus.blockspecialcasings.3.0.name=共振腔 I
+gtplusplus.blockspecialcasings.3.1.name=共振腔 II
+gtplusplus.blockspecialcasings.3.2.name=共振腔 III
+gtplusplus.blockspecialcasings.3.3.name=共振腔 IV
+gtplusplus.blockspecialcasings.3.4.name=调制器 I
+gtplusplus.blockspecialcasings.3.5.name=调制器 II
+gtplusplus.blockspecialcasings.3.6.name=调制器 III
+gtplusplus.blockspecialcasings.3.7.name=调制器 IV
+gtplusplus.blocktieredcasings.1.0.name=综合封装 I
+gtplusplus.blocktieredcasings.1.1.name=综合封装 II
+gtplusplus.blocktieredcasings.1.2.name=综合封装 III
+gtplusplus.blocktieredcasings.1.3.name=综合封装 IV
+gtplusplus.blocktieredcasings.1.4.name=综合封装 V
+gtplusplus.blocktieredcasings.1.5.name=综合框架 I
+gtplusplus.blocktieredcasings.1.6.name=综合框架 II
+gtplusplus.blocktieredcasings.1.7.name=综合框架 III
+gtplusplus.blocktieredcasings.1.8.name=综合框架 IV
+gtplusplus.blocktieredcasings.1.9.name=综合框架 V
+gtpp.book.modular_baubles.name=操作手册：模块化饰品
+gtpp.book.modular_baubles.page00=概念：这个想法源于对灵活性的追求。
+第一步，制造一台模块化工作台以开始自定义你的饰品。
+完成后，你可以组合本书中列出的升级来提升饰品的等级（满分100）。
+gtpp.book.modular_baubles.page01=防御：
+可以通过将金属板与饰品组合来升级。
+ | +1 | 铝
+ | +2 | 不锈钢
+ | +3 | 钨
+ | +4 | 钨钢
+ | +5 | 硅岩
+gtpp.book.nuclear_chemistry_ffpp.name=核化学[FFPP]
+gtpp.book.nuclear_chemistry_ffpp.page00=裂变燃料加工厂
+尺寸：3x9x3 [长x高x宽]
+控制器：底部居中
+4x输入仓
+2x输出仓
+1x输出总线
+1x ZPM+消音仓
+1x维护仓
+1x能源仓
+gtpp.book.nuclear_chemistry_ffpp.page01=[1] 7x 哈斯合金X 或 输入/输出仓
+[2] 5x Incoloy-DS流体密封方块
+[3] 4x 反应堆护盾机械方块
+[4] 17x 哈斯合金N密封方块
+多方块结构
+约定格式为[长x高x宽]
+
+gtpp.book.nuclear_chemistry_ffpp.page02=第1/2层：
+[1][1][1]
+[1][1][1]
+[1][1][1]
+第3/5/6层：
+[ ][4][ ]
+[4][2][4]
+[ ][4][ ]
+gtpp.book.nuclear_chemistry_ffpp.page03=第4层：
+[ ][3][ ]
+[3][2][3]
+[ ][3][ ]
+第7/8/9层：
+[ ][ ][ ]
+[ ][3][ ]
+[ ][ ][ ]
+gtpp.book.nuclear_chemistry_ffpp.page04=裂变燃料加工厂——
+该结构用于产出运行液态氟化钍反应堆(LFTR)所需的熔融盐。
+gtpp.book.power_storage_v064.name=能源存储指南 [版本0.64]
+gtpp.book.power_storage_v064.page00=关于能源存储，你实际上有三种不同的选择：
+电池缓冲箱，
+能量缓冲箱，
+电力子站
+gtpp.book.power_storage_v064.page01=电池缓冲箱
+便携性较高，允许你随时安置并在需要的地方插入电池。
+每个储存的电池输出1A，最多16A。
+gtpp.book.power_storage_v064.page02=能量缓冲箱
+是存储基地能源的更优选择。一旦放置，不移动则不会丢失存储电力。
+能量缓冲箱可从输出侧输出4A，但接受16A输入。
+gtpp.book.power_storage_v064.page03=电力子站
+用于后期存储大量能源。
+每刻消耗所有能源型仓室平均电压的2%。
+gtpp.book.power_storage_v064.page04=允许从控制器背面插入/取出能量，用螺丝刀切换。
+可变高度结构，4-16格高。插入的氧化还原单元决定结构的最大能量等级。
+gtpp.book.power_storage_v064.page05=氧化还原单元不能放入顶层或底层，内部空间为3xHx3。
+不同等级的单元不能混合使用。
+gtpp.book.power_storage_v064.page06=所有仓室至少需要HV等级，此下限是为了防止利用ULV/LV仓室降低平均值。
+目前GUI在结构未形成前不会显示任何内容，这是已知问题。
+gtpp.book.power_storage_v064.page07=有效仓室：
+能源仓，
+动力仓，
+充能总线，
+放电总线，
+动力缓冲仓，
+多安培动力仓。
+结构必须包含至少一个能量输入和一个能量输出仓。
+gtpp.book.thermal_boiler.name=热锅炉操作手册
+gtpp.book.thermal_boiler.page00=本书介绍如何设置和运行热锅炉。对本书本身及其内容造成的任何损坏概不负责。
+gtpp.book.thermal_boiler.page01=首先你需要制造以下物品使热锅炉正常运转：主锅炉方块、20个热隔离机械方块、两个输入仓、两个输出仓、各种工具以及维护仓。
+gtpp.book.thermal_boiler.page02=开始建造，先在地面铺设第一层3x3的机器机械方块（中间放一个仓室），然后将锅炉方块放在朝外的某一侧3米宽的中央。
+gtpp.book.thermal_boiler.page03=拿另外3个仓室放在剩余的三个3米宽侧面，同样朝外。然后在机器的四个角落也放上机器机械方块，中间只留一个空位。
+gtpp.book.thermal_boiler.page04=在顶部第三层铺设3x3机器机械方块，最后一个仓室放在中间朝外。
+gtpp.book.thermal_boiler.page05=访问锅炉方块时，现在应该不再提示结构不完整（屏幕最后一行）。拿上一堆工具（金属锤、橡皮锤、螺丝刀、扳手、烙铁和撬棍）
+gtpp.book.thermal_boiler.page06=去维护仓访问它。然后拿着6种工具在GUI中右键点击对应槽位。注意使用烙铁时需要在物品栏中有焊锡/铅。
+gtpp.book.thermal_boiler.page07=主方块现在应该提示你需要用橡皮锤（重新）激活机器。橡皮锤可以启用和禁用机器，机器会在重要部件损坏后自动禁用。
+gtpp.book.thermal_boiler.page08=如果你想用熔岩，应添加熔岩过滤器以从中提取额外资源。过滤器损坏后机器不会爆炸。如果使用熔融盐则不需要过滤器。
+gtpp.book.thermal_boiler.page09=处理熔岩时会得到黑曜石，但使用过滤器时，有时会得到锭而非黑曜石方块。使用熔融盐时，盐会被返还。
+gtpp.book.thermal_boiler.page10=关于维护：连续运行几小时后，锅炉会出现小问题，不影响运行，但会降低效率。屏幕上列出的每个问题会降低10%效率。
+gtpp.book.thermal_boiler.page11=修复这些问题，只需去维护仓用对应工具点击槽位即可。如果六个可能的运行故障全部发生，机器将自动关机。不会爆炸，只是停止运行。
+gtpp.book.thermal_boiler.page12=热锅炉在达到100%效率时，每刻可用约5-6升水产生800升蒸汽。使用熔岩时，每秒消耗1666升。
+gtpp.book.thermal_boiler.page13=热锅炉约相当于33个小型热力发电机，且燃料不足时效率大幅降低，因此建议为熔岩使用大型下界泵，或为熔融盐使用良好的核反应堆。
+gtpp.book.thermal_boiler.page14=输入和输出槽完全可选，可多放或不放。没有输入的机器无法处理任何配方，没有输出的机器则直接销毁所有输出物品和液体。
+gtpp.book.thermal_boiler.page15=可以用螺丝刀操作输出仓来指定各仓的输出内容。
+gtpp.nei.ap.tier=藻类池等级：%s
+gtpp.recipe.algae_pond=藻类池
+gtpp.recipe.multiblockrockbreaker=Boldarnator
+gtpp.tiered_tank.desc.capacity=存储 %s 流体
+gtpp.tiered_tank.desc.fluid=流体：%s %s L
+gtpp.tiered_tank.desc.portable=便携储罐。
+gtpp.tiered_tank.infodata.amount=%s L
+gtpp.tiered_tank.infodata.capacity=%s L
+gtpp.tiered_tank.tooltip.amount=流体量：%s L
+gtpp.tiered_tank.tooltip.contains=含有流体：%s
+miscutils.blockcasings.0.name=离心机机械方块
+miscutils.blockcasings.1.name=结构焦炉机械方块
+miscutils.blockcasings.10.name=铁砖板
+miscutils.blockcasings.11.name=多罐外部机械方块
+miscutils.blockcasings.12.name=哈斯合金N反应堆机械方块
+miscutils.blockcasings.13.name=反应堆护盾机械方块
+miscutils.blockcasings.14.name=高温熔炼机加热遏制线圈
+miscutils.blockcasings.15.name=高温熔炼机机械方块
+miscutils.blockcasings.2.name=耐热焦炉机械方块
+miscutils.blockcasings.3.name=耐火焦炉机械方块
+miscutils.blockcasings.4.name=材料压制机机械方块
+miscutils.blockcasings.5.name=电解机机械方块
+miscutils.blockcasings.6.name=线材工厂机械方块
+miscutils.blockcasings.7.name=研磨堆机械方块
+miscutils.blockcasings.8.name=物质产生线圈
+miscutils.blockcasings.9.name=物质制造机机械方块
