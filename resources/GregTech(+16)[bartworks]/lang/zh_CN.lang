@@ -140,13 +140,9 @@ tooltip.bw.tier.name=等级:
 tooltip.bw.empty.name=空
 tooltip.bw.mb_via.name=%s§7 via §2BartWorks
 
-tooltip.bw.high_temp_gas_cooled_reactor.material=供高温气冷反应堆使用
 
-tooltip.bw.item.circuit.tagged=电路
 tooltip.bw.item.circuit.tagged.imprint=一个压印%s
 tooltip.bw.item.circuit.tagged.sliced=一个切片%s
-tooltip.bw.item.circuit.imprint=一个压印电路
-tooltip.bw.item.circuit.sliced=一个切片电路
 
 tooltip.teslastaff.0.name=没有保修!
 tooltip.labmodule.0.name=用于改变生物实验室工作模式的模块
@@ -246,15 +242,6 @@ BW.infoData.BioVat.production=产量
 BW.infoData.htr.helium_level=氦水平：%sL / %sL
 BW.infoData.htr.problems=问题：%s
 
-BW.infoData.htgr.mode=模式：%s
-BW.infoData.htgr.mode.emptying=清空
-BW.infoData.htgr.mode.normal=正常
-BW.infoData.htgr.progress=进度：%ss / %ss
-BW.infoData.htgr.fuel_type=燃料类型：%s
-BW.infoData.htgr.fuel_type.none=无
-BW.infoData.htgr.fuel_type.triso=TRISO (%s)
-BW.infoData.htgr.fuel_amount=燃料数量：%s 个。
-BW.infoData.htgr.coolant=冷却液：%sL/s
 
 BW.infoData.thtr.progress=进度：%ss/%ss
 BW.infoData.thtr.triso_pebbles=TRISO燃料丸：%s个 / %s个
@@ -271,8 +258,6 @@ BW.NEI.display.radhatch.0=辐射剂量: %s Sv
 BW.NEI.display.radhatch.1=质量: %s kg
 BW.NEI.display.radhatch.2=时间: %s s
 
-misc.BatchModeTextOn=开启批量处理
-misc.BatchModeTextOff=关闭批量处理
 
 tooltip.cal.imprintedWith=已压印：
 chat.cal.mode.0=电路装配线模式
