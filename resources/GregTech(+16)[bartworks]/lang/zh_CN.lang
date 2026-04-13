@@ -273,3 +273,6 @@ BW.gui.text.lesu.max=最大：%s
 BW.gui.text.lesu.max_in=最大EU/t输入：%s
 BW.gui.text.lesu.eu_out=EU/t 输出：%s
 BW.gui.text.lesu.amp_io=A/t 输入/输出: %s
+
+tooltip.bw.kg.0.name=kg
+tooltip.bw.kg.1.name=kgs

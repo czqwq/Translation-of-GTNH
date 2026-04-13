@@ -439,3 +439,15 @@ ig.asteroid.lanthanumAsteroid=镧
 ig.asteroid.tengamAsteroid=镃
 ig.asteroid.naquadahAsteroid=硅岩
 ig.asteroid.draconicCoreRuin=龙芯
+
+# 太空电梯方块
+gt.blockcasingsSE.0.name=太空电梯基座方块
+gt.blockcasingsSE.1.name=太空电梯支撑结构
+gt.blockcasingsSE.2.name=太空电梯内部结构
+gt.blockcasingsSEMotor.0.name=太空电梯电机 MK-I
+gt.blockcasingsSEMotor.1.name=太空电梯电机 MK-II
+gt.blockcasingsSEMotor.2.name=太空电梯电机 MK-III
+gt.blockcasingsSEMotor.3.name=太空电梯电机 MK-IV
+gt.blockcasingsSEMotor.4.name=太空电梯电机 MK-V
+ig.asteroid.NetherOreAsteroid=下界矿石小行星
+ig.asteroid.spaceOreAsteroid=太空矿石小行星
