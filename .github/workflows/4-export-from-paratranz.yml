@@ -55,7 +55,7 @@ jobs:
       #     --message='[自动化] 更新 GT 语言文件'
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v4.0.0
+        uses: peter-evans/create-pull-request@v8
         with:
           title: "[自动化] 更新 任务书 + 语言文件 + GT 语言文件"
           labels: |
@@ -64,7 +64,7 @@ jobs:
             自动化:paratranz→lang+zs
           body: |
             - 手动触发，目标分支：${{ github.event.inputs.branch }}
-          base: test
+          base: ${{ github.event.inputs.branch }}
           branch: automation/compare/all-${{ github.run_id }}
           path: ${{ env.REPO_PATH }}
           delete-branch: true
