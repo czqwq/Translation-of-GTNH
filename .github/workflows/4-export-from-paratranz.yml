@@ -54,14 +54,6 @@ jobs:
           --repo-path='${{ env.REPO_PATH }}'
           --message='[自动化] 更新 GT 语言文件'
 
-      - name: Force clean git state
-        working-directory: ${{ env.REPO_PATH }}
-        run: |
-          git fetch origin
-          git checkout ${{ github.event.inputs.branch }}
-          git reset --hard origin/${{ github.event.inputs.branch }}
-          git clean -fd
-
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
@@ -72,7 +64,7 @@ jobs:
             自动化:paratranz→lang+zs
           body: |
             - 手动触发，目标分支：${{ github.event.inputs.branch }}
-          base: ${{ github.event.inputs.branch }}
+          base: test
           branch: automation/compare/all-${{ github.run_id }}
           path: ${{ env.REPO_PATH }}
           delete-branch: true
