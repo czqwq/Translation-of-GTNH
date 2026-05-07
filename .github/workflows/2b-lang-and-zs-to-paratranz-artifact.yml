@@ -1,4 +1,4 @@
-name: 2A. Lang And Zs To Paratranz (Artifact)
+name: 2B. Lang And Zs To Paratranz (Artifact)
 
 on:
   workflow_dispatch:
