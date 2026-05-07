@@ -42,11 +42,11 @@ jobs:
           --repo-path='${{ env.REPO_PATH }}'
           --message='[自动化] 更新 任务书'
 
-      # - name: Run script (Lang+Zs)
-      #   run: >-
-      #     bun run src/index.ts from-paratranz:lang-zs
-      #     --repo-path='${{ env.REPO_PATH }}'
-      #     --message='[自动化] 更新 语言文件'
+      - name: Run script (Lang+Zs)
+        run: >-
+          bun run src/index.ts from-paratranz:lang-zs
+          --repo-path='${{ env.REPO_PATH }}'
+          --message='[自动化] 更新 语言文件'
 
       - name: Run script (GT Lang)
         run: >-
