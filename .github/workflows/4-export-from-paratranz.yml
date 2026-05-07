@@ -78,7 +78,6 @@ jobs:
             --title "[自动化] 更新 任务书 + 语言文件 + GT 语言文件" \
             --body "手动触发，目标分支：${{ github.event.inputs.branch }}" \
             --label "自动化:paratranz→gt-lang,自动化:paratranz→questbook,自动化:paratranz→lang+zs" \
-            --delete-branch
 
       - name: Print success summary
         run: |
