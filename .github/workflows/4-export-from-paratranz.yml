@@ -55,21 +55,33 @@ jobs:
       #     --message='[自动化] 更新 GT 语言文件'
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v8
-        with:
-          title: "[自动化] 更新 任务书 + 语言文件 + GT 语言文件"
-          labels: |
-            自动化:paratranz→gt-lang
-            自动化:paratranz→questbook
-            自动化:paratranz→lang+zs
-          body: |
-            - 手动触发，目标分支：${{ github.event.inputs.branch }}
-          base: ${{ github.event.inputs.branch }}
-          branch: automation/compare/all-${{ github.run_id }}
-          path: ${{ env.REPO_PATH }}
-          delete-branch: true
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        working-directory: ${{ env.REPO_PATH }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          PR_BRANCH="automation/compare/all-${{ github.run_id }}"
+          git checkout -b "$PR_BRANCH"
+
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "[自动化] 更新 任务书 + 语言文件 + GT 语言文件"
+          else
+            echo "No changes to commit, skipping PR creation"
+            exit 0
+          fi
+
+          git push origin "$PR_BRANCH" --force
+
+          gh pr create \
+            --base "${{ github.event.inputs.branch }}" \
+            --head "$PR_BRANCH" \
+            --title "[自动化] 更新 任务书 + 语言文件 + GT 语言文件" \
+            --body "手动触发，目标分支：${{ github.event.inputs.branch }}" \
+            --label "自动化:paratranz→gt-lang,自动化:paratranz→questbook,自动化:paratranz→lang+zs" \
+            --delete-branch
 
       - name: Print success summary
         run: |
