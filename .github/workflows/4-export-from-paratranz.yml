@@ -1,0 +1,77 @@
+name: 4. Export from Paratranz
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "PR 提交的目标分支"
+        required: true
+        type: string
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+
+  REPO_PATH: .repo.local.d
+
+  CO_AUTHORED_BY: |
+    Kiwi233 <huaxia0611@qq.com>
+    MuXiu1997 <muxiu1997@muxiu1997.com>
+
+jobs:
+  export-from-paratranz:
+    name: Export from Paratranz
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
+      - name: Checkout Work Repo
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.inputs.branch }}
+          path: ${{ env.REPO_PATH }}
+          persist-credentials: false
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
+      - name: Run script (Quest Book)
+        run: >-
+          bun run src/index.ts from-paratranz:quest-book
+          --repo-path='${{ env.REPO_PATH }}'
+          --message='[自动化] 更新 任务书'
+
+      - name: Run script (Lang+Zs)
+        run: >-
+          bun run src/index.ts from-paratranz:lang-zs
+          --repo-path='${{ env.REPO_PATH }}'
+          --message='[自动化] 更新 语言文件'
+
+      - name: Run script (GT Lang)
+        run: >-
+          bun run src/index.ts from-paratranz:gt-lang
+          --repo-path='${{ env.REPO_PATH }}'
+          --message='[自动化] 更新 GT 语言文件'
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4.0.0
+        with:
+          title: "[自动化] 更新 任务书 + 语言文件 + GT 语言文件"
+          labels: |
+            自动化:paratranz→gt-lang
+            自动化:paratranz→questbook
+            自动化:paratranz→lang+zs
+          body: |
+            - 手动触发，目标分支：${{ github.event.inputs.branch }}
+          base: ${{ github.event.inputs.branch }}
+          branch: automation/compare/all-${{ github.run_id }}
+          path: ${{ env.REPO_PATH }}
+          delete-branch: true
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+      - name: Print success summary
+        run: |
+          echo "## 已从Paratranz导出并提交PR" >> $GITHUB_STEP_SUMMARY
+          echo "目标分支：${{ github.event.inputs.branch }}" >> $GITHUB_STEP_SUMMARY
